@@ -6,7 +6,11 @@ from datasets import Dataset, load_dataset
 import numpy as np
 from PIL import Image
 
-dataset = load_dataset("imagefolder", data_dir="/tmp/chest_xray/chest_xray/train")
+# Updated dataset directory path based on where the Kaggle dataset was extracted
+dataset_dir = "/home/codespace/.cache/kagglehub/datasets/paultimothymooney/chest-xray-pneumonia/versions/2/chest_xray"
+
+# Load dataset using the correct directory
+dataset = load_dataset("imagefolder", data_dir=dataset_dir)
 
 # Show one sample to check the keys
 print(dataset["train"][0])
