@@ -1,1 +1,25 @@
-tmp/
+# Data directory
+data/
+chest_xray/
+
+# Output directories
+output/
+vit-xray-output/
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.env/
+
+# IDE
+.vscode/
+.idea/
+
+# Misc
+.DS_Store
