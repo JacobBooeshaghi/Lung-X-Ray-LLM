@@ -4,8 +4,8 @@ chest_xray/
 
 # Output directories
 output/
-vit-xray-output/
 logs/
+vit-xray-output/
 
 # Python
 __pycache__/
