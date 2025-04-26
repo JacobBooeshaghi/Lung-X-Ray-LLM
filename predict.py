@@ -40,7 +40,7 @@ st.markdown("""
 @st.cache_resource
 def load_model():
     # Load the model and processor
-    model_path = "./vit-xray-output/checkpoint-1000"  # Use the latest checkpoint
+    model_path = "./vit-xray-output/final_model"  # Use the latest checkpoint
     print(f"Loading model from: {model_path}")
     model = ViTForImageClassification.from_pretrained(model_path)
     processor = ViTImageProcessor.from_pretrained("google/vit-base-patch16-224-in21k")

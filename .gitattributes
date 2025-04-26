@@ -1,0 +1,2 @@
+vit-xray-output/**/*.safetensors filter=lfs diff=lfs merge=lfs -text
+vit-xray-output/**/*.bin filter=lfs diff=lfs merge=lfs -text
